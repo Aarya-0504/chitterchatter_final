@@ -17,7 +17,7 @@ const Messages = require('./models/Messages');
 
 
 
-const PORT=process.env.PORT || 8000
+const PORT=8000 || process.env.PORT 
 
 //SOCKET IO
 let users=[];
